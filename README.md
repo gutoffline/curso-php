@@ -12,6 +12,7 @@ Todo arquivo PHP terá a extensão .php
 ## Aula 01
  - Introdução ao PHP
  - Infraestrutura necessária
+ - Onde colocar nossos arquivos
  - Variáveis
  - Tipos de dados
  - Operadores aritméticos
@@ -29,3 +30,8 @@ Todo arquivo PHP terá a extensão .php
 - Vamos instalar o XAMPP, esse programa já instala o APACHE, o PHP e o MariaDB. Baixe o XAMPP em https://www.apachefriends.org/ . 
 
 ![](xampp.PNG)
+
+### Onde colocar nossos arquivos
+- Os arquivos PHP precisam ser executados à partir do servidor, como se você estive acessando pela internet.
+- Para o XAMPP, o local aonde devemos colocar os arquivos é em `c:\xampp\htdocs`. Exemplo: `c:\xampp\htdocs\site\index.php`
+- Para executar os arquivos php, precisamos requisitá-los à partir do navegador digitando `http://localhost/`. Exemplo: `http://localhost/site/index.php`
