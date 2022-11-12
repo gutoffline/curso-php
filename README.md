@@ -16,7 +16,6 @@ Todo arquivo PHP terá a extensão .php
  - Variáveis
  - Tipos de dados
  - Operadores aritméticos
- - Envio/Recebimento de informações entre arquivos
 
 ### Introdução ao PHP
 - Documentação oficial http://php.net/
