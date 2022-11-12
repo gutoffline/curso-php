@@ -50,3 +50,11 @@ Todo arquivo PHP terá a extensão .php
     - integer: todo número inteiro. Exemplo: 36
     - float ou double: todo número decimal. Exemplo: 1.75
     - boolean: valor de verdadeiro(true) ou falso(false)
+
+### Operadores aritméticos
+- + : adição
+- - : operador de subtração
+- *: operador de multiplicação
+- /: operador de divisão
+- **: exponenciação
+- % : resto da divisão, operador de módulo
