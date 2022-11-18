@@ -23,3 +23,10 @@
     <button type="reset">Limpar</button>
 </form>
 ```
+- no arquivo php que vai receber as informações, você precisa utilizar o método **$_POST[]** ou **$_GET[]** em conjunto com o *name* do campo que você deseja recuperar a informação. Exemplo:
+```php
+$usuario = $_POST['usuario'];
+$senha = $_POST['senha'];
+
+echo "$usuario - $senha";
+```
