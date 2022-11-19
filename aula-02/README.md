@@ -75,3 +75,9 @@ if($senha == 123 && $usuario == 'guto'){
     echo "dados incorretos";
 }
 ```
+
+## Redirecionamento de página
+- para redirecionar podemos utilizar o comando `header('Location: arquivo.php')`. Exemplo:
+```php
+header('Location: painel.php');
+```
