@@ -2,9 +2,9 @@
 $usuario = $_POST['usuario'];
 $senha = $_POST['senha'];
 
-if($senha == 123){
-    echo "senha correta";
+if($senha == 123 && $usuario == 'guto'){
+    echo "dados correto";
 }else{
-    echo "senha incorreta";
+    echo "dados incorretos";
 }
 ?>
