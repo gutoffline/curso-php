@@ -2,5 +2,9 @@
 $usuario = $_POST['usuario'];
 $senha = $_POST['senha'];
 
-echo (10==10);
+if($senha == 123){
+    echo "senha correta";
+}else{
+    echo "senha incorreta";
+}
 ?>
