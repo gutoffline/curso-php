@@ -50,6 +50,11 @@
     }else{
         echo "<p>Reprovado</p>";
     }
+
+
+    $idade = 15;
+    echo ($idade>=18) ? "pode entrar" : "rejeitado";
+
     ?>
 </body>
 </html>

@@ -55,3 +55,14 @@ if($nota >= 8){
     echo "<p>Reprovado</p>";
 }
 ```
+
+### Ternário
+#### Sintaxe
+```php
+condição ? resposta verdadeira : resposta falsa
+```
+
+#### Exemplo
+```php
+echo ($idade>=18) ? "pode entrar" : "rejeitado";
+```
