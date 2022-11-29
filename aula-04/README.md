@@ -66,3 +66,40 @@ condição ? resposta verdadeira : resposta falsa
 ```php
 echo ($idade>=18) ? "pode entrar" : "rejeitado";
 ```
+
+### switch
+#### Sintaxe
+```php
+switch(variável){
+    case valor:
+        código
+        break;
+    case valor:
+        código
+        break;
+    default: 
+        código
+        break;
+}
+```
+
+#### Exemplo
+```php
+switch ($cor) {
+    case 'azul':
+        echo "<p>Sua cor favorita é <b>AZUL</b></p>";
+        break;
+    
+    case 'verde':
+        echo "<p>Sua cor favorita é <b>VERDE</b></p>";
+        break;
+    
+    case 'vermelho':
+        echo "<p>Sua cor favorita é <b>VERMELHO</b></p>";
+        break;
+        
+    default:
+        echo "<p>Sua cor favorita não é verde, nem azul e nem vermelho</p>";
+        break;
+}
+```

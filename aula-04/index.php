@@ -55,6 +55,41 @@
     $idade = 15;
     echo ($idade>=18) ? "pode entrar" : "rejeitado";
 
+    $cor = "vermelho";
+    switch ($cor) {
+        case 'azul':
+            echo "<p>Sua cor favorita é <b>AZUL</b></p>";
+            break;
+        
+        case 'verde':
+            echo "<p>Sua cor favorita é <b>VERDE</b></p>";
+            break;
+        
+        case 'vermelho':
+            echo "<p>Sua cor favorita é <b>VERMELHO</b></p>";
+            break;
+
+        default:
+            echo "<p>Sua cor favorita não é verde, nem azul e nem vermelho</p>";
+            break;
+    }
+
+    $dia = 3;
+    switch($dia){
+        case 1:
+            echo "Domingo";
+            break;
+        case 2:
+            echo "Segunda";
+            break;
+        case 3:
+            echo "Terça";
+            break;
+        default:
+            echo "dia inválido";
+            break;
+    }
+
     ?>
 </body>
 </html>
