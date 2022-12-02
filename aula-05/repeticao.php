@@ -18,6 +18,10 @@
         //$i = $i + 1;
         $i++;
     }
+    echo "<hr>";
+    for ($i=0; $i < count($clientes); $i++) { 
+        echo "$clientes[$i]<br>";
+    }
 
     ?>
 </body>

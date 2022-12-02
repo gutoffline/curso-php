@@ -34,3 +34,24 @@ while($contador <= 10){
 - um array possui posições iguais à quantidade de elementos. Exemplo: `$clientes = ['Guto','Renato', 'João']`
 -  o array clientes possui 3 posições sempre começando em 0. Para eu exibir o cliente Guto eu devo usar `$clientes[0]`, para exibir o cliente João devo usar `$clientes[2]`.
 - o comando `count()` exibe a quantidade de posições de um array. Exmeplo: `count($clientes)`
+
+### for - para
+#### Sintaxe
+```php
+for(inicialização da variável ; condição ; incremento){
+    bloco de código
+}
+```
+#### Exemplo
+```php
+for($i=1 ; $i <= 10; $i++){
+    echo $i;
+}
+```
+
+#### Exemplo
+```php
+for ($i=0; $i < count($clientes); $i++) { 
+    echo "$clientes[$i]<br>";
+}
+```
