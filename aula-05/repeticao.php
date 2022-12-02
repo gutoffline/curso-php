@@ -22,7 +22,6 @@
     for ($i=0; $i < count($clientes); $i++) { 
         echo "$clientes[$i]<br>";
     }
-
     ?>
 </body>
 </html>
