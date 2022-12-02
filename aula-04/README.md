@@ -6,8 +6,6 @@
     - ternário
 - Estrutura de repetição
     - while
-    - for
-- Desafios
 
 ## Operadores lógicos
 - Os operadores lógicos são:
