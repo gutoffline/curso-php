@@ -5,6 +5,9 @@
         - array
     - for
 - Desafios
+- Arquivo texto
+    - Criar
+    - Ler
 
 ## Estrutura de repetição
 ### while - enquanto
