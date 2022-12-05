@@ -7,7 +7,6 @@
 - Desafios
 - Arquivo texto
     - Criar
-    - Ler
 
 ## Estrutura de repetição
 ### while - enquanto
@@ -58,3 +57,14 @@ for ($i=0; $i < count($clientes); $i++) {
     echo "$clientes[$i]<br>";
 }
 ```
+
+
+## Arquivo de texto
+### Criando um arquivo
+- no comando `fopen` você passa o nome do arquivo que será criado e o argumento para criar o arquivo, no caso `w`
+```php
+$arquivo = fopen("clientes.txt","w");
+fwrite($arquivo, "Cliente 01");
+fclose($arquivo);
+```
+
