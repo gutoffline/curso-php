@@ -38,4 +38,6 @@ $data = [
 ```
 7. Modifique o programa anterior para que entre cada uma das informações dos fornecedores possua um "TAB".
 8. Crie um programa que leia os dados dos fornecedores e apresente em uma tabela.
-9. 
+9. Aplique o bootstrap na tabela criada no exercícios anterior.
+10. Crie um programa que crie um arquivo texto chamado "contatos.txt" com os dados contidos no arquivo "dados.txt". No arquivo texto deve ser apresentado os dados de cada fornecedor em linhas diferente. Separe cada informação com um "tab".
+8. Crie um programa que leia os dados dos contatos e apresente em uma tabela.
