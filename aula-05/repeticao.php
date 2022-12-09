@@ -23,5 +23,6 @@
         echo "$clientes[$i]<br>";
     }
     ?>
+    <script src="app.js"></script>
 </body>
 </html>

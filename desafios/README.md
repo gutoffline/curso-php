@@ -41,4 +41,4 @@ $data = [
 9. Aplique o bootstrap na tabela criada no exercícios anterior.
 10. Crie um programa que crie um arquivo texto chamado "contatos.txt" com os dados contidos no arquivo "dados.txt". No arquivo texto deve ser apresentado os dados de cada fornecedor em linhas diferente. Separe cada informação com um "tab".
 11. Crie um programa que leia os dados dos contatos e apresente em uma tabela.
-12. Crie um programa aonde você tenha um formulário para cadastrar o nome e e-mail de uma pessoa. As informações devem ser armazenadas em um arquivo de texto chamado "estudantes.txt" seu programa deve contem uma tela para exibir os cadastros dos alunos à partir da leitura desse arquivo texto.
+12. Crie um programa aonde você tenha um formulário para cadastrar o nome e e-mail de uma pessoa. As informações devem ser armazenadas em um arquivo de texto chamado "estudantes.txt" seu programa deve conter uma tela para exibir os cadastros dos alunos à partir da leitura desse arquivo texto.
