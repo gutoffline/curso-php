@@ -11,7 +11,7 @@
     <main class="container">
         <div class="row">
             <div class="col">
-                <h1>Cadastro de clientes</h1>
+                <h1>Cadastro de estudantes</h1>
             </div>
         </div>
         <form class="row" action="cadastrar.php" method="post">
